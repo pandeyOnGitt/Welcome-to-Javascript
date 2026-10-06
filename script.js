@@ -1,13 +1,37 @@
-let a = 12 ;
-let b = 8;
+// let , const , var 
 
-let c = a/b;
-let d = 1%2;
 
-d++;
-d--;
---d;
+//  c = 14;
 
-console.log("the value is :"+ c);
-console.log("modulo is : "+ d);
+//  console.log(c);
+
+
+const user1 = {
+    name1 :  "Prince",
+    age : 19,
+    address: ""
+}
+
+const array = [12, 13, 14, 15, 16];
+let arr1 = ["Vikas" , "Prince", "Anshul" ];
+
+
+// console.log(array[4]);
+
+
+for(let i = 0; i<5;i++){
+    if(array[i]>15){
+        console.log(array[i]);
+    }
+}
+
+
+
+function addition(s, r){
+    console.log("The Value of Sum is ::"+ (s+r));
+}
+
+addition(1 , 10);
+
+
 
